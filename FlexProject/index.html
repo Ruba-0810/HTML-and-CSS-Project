@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+       .container{
+        display: flex;
+        height: 100vh;
+        gap: 10px;
+       }
+       .container> #card1{
+          flex-basis: 20%;
+          background-color: beige;
+          padding: 5px;
+          border: 2px solid black;
+          border-radius: 5px;
+          align-self: flex-start;
+       }
+       .container> #card2{
+          flex-basis: 40%;
+          background-color: beige;
+          padding: 5px;
+          border: 2px solid black;
+          border-radius: 5px;
+          align-self: flex-end;
+       }
+       .container> #card3{
+          flex-basis: 25%;
+          background-color: beige;
+          padding: 5px;
+          border: 2px solid black;
+          border-radius: 5px;
+          align-self:center;
+       }
+       .container> #card4{
+          flex-basis: 35%;
+          background-color: beige;
+          padding: 5px;
+          border: 2px solid black;
+          border-radius: 5px;
+          align-self:baseline;
+       }
+
+       h2{
+        font-size: 20px;
+        text-transform: capitalize;
+       }
+       p{
+        font-size: 12px;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="card" id="card1">
+            <h2>card-1</h2>
+            <p>Short text content for the first card</p>
+        </div>
+        <div class="card" id="card2">
+            <h2>card-2</h2>
+            <p>Short text content for the first card</p>
+        </div>
+        <div class="card" id="card3">
+            <h2>card-3</h2>
+            <p>Short text content for the first card</p>
+        </div>
+        <div class="card" id="card4">
+            <h2>card-2</h2>
+            <p>Short text content for the first card</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.container{
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+}
+.row1{
+    display: flex;
+}
+.row2{
+    display: flex;
+}
+.white{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(253, 251, 251);
+}
+.black{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(10, 9, 9);
+}
+img{
+    width: 50px;
+    height: 50px;
+}
