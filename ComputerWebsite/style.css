@@ -37,52 +37,61 @@
 }
 .container1{
     display: flex;
-    justify-content: space-between;
 }
 #phone1{
     width: 170px;
     height: 160px;
+    margin-left: 60px;
 }
 #phone2{
     width: 140px;
     height: 140px;
+    margin-left: 110px;
 }
 
 #phone3{
     width: 130px;
     height: 140px;
+    margin-left: 120px;
 }
-
-
 .box3{
+    display: flex;
+    flex-direction: column;
     margin-top: 50px;
-    margin-left: 30px;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
 }
 .box4{
+    display: flex;
+    flex-direction: column;
     margin-top: 50px;
-    margin-left: 30px;
 }
 #name1{
     font-weight: bold;
-    margin-left: 60px;
-    margin-bottom: 10px;
+    margin: auto;
 }
 #name2{
     font-weight: bold;
-    margin-left: 40px;
-    margin-bottom: 10px;
+    margin: auto;
 }
 #name3{
     font-weight: bold;
-    margin-left: 30px;
-    margin-bottom: 10px;
+    margin: auto;
 }
+
 #brief1{
-    margin-left: 20px;
+    font-size: 10px;
+    padding: 10px 5px 20px 5px;
+
+   
 }
 #brief2{
-    margin-left: 10px;
+    font-size: 10px;
+    padding: 10px 5px 20px 5px;
 }
 #brief3{
-    margin-left: 10px;
+    font-size: 10px;
+    padding: 10px 5px 20px 5px;
 }
