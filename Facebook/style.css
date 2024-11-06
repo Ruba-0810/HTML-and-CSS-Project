@@ -1,0 +1,674 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(226, 209, 209,0.5);
+}
+nav{
+    height: 35px;
+    background-color: rgba(1, 112, 238, 0.808);  
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    gap: 30px;
+}
+.left .socialbook{
+    display: flex;
+    margin: 5px 5px 5px 40px;
+    cursor: pointer;
+}
+.left .socialbook li{
+    list-style-type: none;
+    cursor: pointer;
+}
+.left .socialbook li #first::first-letter{
+    color: rgba(1, 112, 238, 0.808);
+    background-color: white;
+}
+.left .explore{
+    display: flex;
+    margin: 7px;
+    gap: 10px;
+}
+.left .explore li{
+    list-style-type: none;
+    color: white;
+    cursor: pointer;
+ }
+.right{
+    display: flex;
+    gap: 10px;
+}
+.search{
+    position: relative;
+    margin-top: 5px;
+}
+.search #userinput{
+    position: absolute;
+    right: 10px;
+    height: 25px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding-left: 25px;
+}
+.searchid{
+    position: absolute;
+    top: 6px;
+    right: 175px;
+    font-size: small;
+    color: rgb(248, 248, 248);
+}
+.profileimage{
+    position: relative;
+    margin: 5px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.online{
+    top: 5px;
+    right: 4px;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: green;
+    border: 2px solid white;
+ }
+.mainbox{
+    display: flex;
+    height: 100vh;
+
+}
+.box1{
+    width: 25%;
+}
+.mainbox .box1 .subbox1 ul li{
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.mainbox .box1 .subbox1 ul li a{
+    text-decoration: none;
+    color: black;
+}
+.mainbox .box1 .subbox1 ul li a i{
+    color: rgba(1, 112, 238, 0.808);
+    margin-right: 5px;
+}
+#FirstHorizonal{
+    margin-left: 20px;
+    width: 230px;
+}
+.box2{
+    margin-top: 20px;
+    width: 57%;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+
+}
+::-webkit-scrollbar{
+    overflow: hidden;
+}
+.subbox2 ul li{
+    margin-left: 20px;
+     list-style-type: none;
+     padding: 10px; 
+     display: flex;
+     justify-content:flex-start;
+     align-items: center;
+     font-size: 14px;
+}
+.subbox2 ul li img{
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    margin-right: 3px;
+}
+.story{
+    display: flex;
+    gap: 10px;
+}
+.box2 .story .first{
+    position: relative;
+}
+.box2 .story .first img{
+    width: 105px;
+    height: 170px;
+    border-radius: 4px;
+}
+.firstInside #plus{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    top: 110px;
+    left: 40px;
+    border: 2px solid white;
+}
+.firstInside p{
+    position: absolute;
+    top: 145px;
+    left: 25px;
+    font-weight: bolder;
+    color: white;
+}
+.box2 .story .second{
+    position: relative;
+}
+.box2 .story .second img{
+    width: 105px;
+    height: 170px;
+    border-radius: 4px;
+}
+.secondInside #plus{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    top: 10px;
+    left: 5px;
+    border: 3px solid rgba(1, 112, 238, 0.808);;
+}
+.secondInside p{
+    position: absolute;
+    top: 145px;
+    left: 30px;
+    font-weight:lighter;
+    color: white;
+}
+.box2 .story .third img{
+    width: 105px;
+    height: 170px;
+    border-radius: 4px;
+    
+}
+.box2 .story .third{
+    position: relative;
+}
+.thirdInside #plus{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    top: 10px;
+    left: 5px;
+    border: 3px solid rgba(1, 112, 238, 0.808);;
+}
+.thirdInside p{
+    position: absolute;
+    top: 145px;
+    left: 30px;
+    font-weight: lighter;
+    color: white;
+}
+.box2 .story .forth{
+    position: relative;
+}
+.box2 .story .forth img{
+    width: 105px;
+    height: 170px;
+    border-radius: 4px;
+}
+.forthInside #plus{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    top: 10px;
+    left: 5px;
+    border: 3px solid rgba(1, 112, 238, 0.808);
+    
+}
+.forthInside p{
+    position: absolute;
+    top: 145px;
+    left: 30px;
+    font-weight: lighter;
+    color: white;
+}
+.box2 .story .firth{
+    position: relative;
+}
+.box2 .story .firth img{
+    width: 105px;
+    height: 170px;
+    border-radius: 4px;
+}
+.firthInside #plus{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    top: 10px;
+    left: 5px;
+    border: 3px solid rgba(1, 112, 238, 0.808);;
+}
+.firthInside p{
+    position: absolute;
+    top: 145px;
+    left: 30px;
+    font-weight: lighter;
+    color: white;
+}
+.profilebox{
+    margin-top: 10px;
+    width: 95%;
+    height: 160px;
+    background-color: white;
+    border-radius: 4px;
+}
+.myprofile{
+    padding-top: 10px;
+    display: flex;
+}
+.accessAbility{
+    display: flex;
+    gap: 5px;
+}
+.parttwo{
+    margin-left: 35px;
+    margin-top: 30px;
+}
+.parttwo #tellAboutYourSelf{
+    color: rgba(212, 206, 206, 0.575);
+}
+#secondHorizonal{
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.partthree{
+    display: flex;
+    gap: 20px;
+    margin-left: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.partthree li{
+    list-style-type: none;
+}
+.partthree li i{
+    margin-right: 5px;
+}
+.partthree li #redcolor{
+    color: red;
+}
+.partthree li #greencolor{
+    color: green;
+}
+.partthree li #yellowcolor{
+    color: rgba(211, 211, 64, 0.856);
+}
+.lastbox{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.box21{
+    width: 95%;
+    height: 480px;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    }
+    .pic2profile{
+        display: flex;
+        padding-top: 10px;
+     }
+     .pic2profile  .inner2{
+         padding: 20px;
+     }
+     #box2p{
+         font-size: 15px;
+     }
+     .inner3 .inner2photo{
+         width: 95%;
+         height: 300px;
+         margin-left: 15px;
+         margin-right: 15px;
+         margin-bottom: 10px;
+         border-radius: 7px;
+     }
+    .inner4{
+         display: flex;
+         position: relative;
+     }
+    .inner4 .inner2left{
+         position: absolute;
+         display: flex;
+         gap: 30px;
+         left: 20px;
+     }
+    .inner4  .inner2left li {
+         color: rgb(161, 157, 157);
+         list-style-type: none;
+     }
+    .inner4  .inner2left li i{
+         color: rgb(161, 157, 157);
+         cursor: pointer;
+     }
+     #clickin{
+         display: none;
+     }
+     #clickin:checked + li i{
+        color: red;
+     }
+     .inner2right{
+         position: absolute;
+         display: flex;
+         justify-content: center;
+         right: 10px;
+         gap: 5px;
+     }
+     .inner2right img{
+         width: 20px;
+         height: 20px;
+         border-radius: 50%;
+     }
+
+.box3{
+width: 95%;
+height: 500px;
+background-color: white;
+border-radius: 4px;
+display: flex;
+flex-direction: column;
+}
+.pic3profile{
+    display: flex;
+    padding-top: 10px;
+ }
+ .pic3profile  .inner2{
+     padding: 20px;
+ }
+ #box3p{
+     font-size: 15px;
+ }
+ .pic3profile.inner3 .inner3photo{
+     width: 95%;
+     height: 300px;
+     margin-left: 15px;
+     margin-right: 15px;
+     margin-bottom: 10px;
+     border-radius: 7px;
+ }
+ .pic3profile.inner4{
+     display: flex;
+     position: relative;
+ }
+.inner4 .inner3left{
+     position: absolute;
+     display: flex;
+     gap: 30px;
+     left: 20px;
+ }
+.inner4  .inner3left li {
+     color: rgb(161, 157, 157);
+     list-style-type: none;
+ }
+.inner4  .inner3left li i{
+     color: rgb(161, 157, 157);
+     cursor: pointer;
+ }
+ #clickon{
+     display: none;
+ }
+ #clickon:checked + li i{
+    color: red;
+ }
+ .inner3right{
+     position: absolute;
+     display: flex;
+     justify-content: center;
+     right: 10px;
+     gap: 5px;
+ }
+ .inner3right img{
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+ }
+.box4{
+    width: 95%;
+    height: 500px;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+#date{
+    font-size: 13px;
+}
+.pic4profile{
+   display: flex;
+   padding-top: 10px;
+}
+.inner2{
+    padding: 20px;
+}
+#box4p{
+    font-size: 15px;
+}
+.inner3 .inner3photo{
+    width: 95%;
+    height: 300px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+.inner4{
+    display: flex;
+    position: relative;
+}
+.inner4left{
+    position: absolute;
+    display: flex;
+    gap: 30px;
+    left: 20px;
+}
+.inner4left li {
+    color: rgb(161, 157, 157);
+    list-style-type: none;
+}
+.inner4left li i{
+    color: rgb(161, 157, 157);
+    cursor: pointer;
+}
+#click{
+    display: none;
+}
+#click:checked + li i{
+   color: red;
+}
+.inner4right{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    right: 10px;
+    gap: 5px;
+}
+.inner4right img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+span{
+    color: rgba(1, 112, 238, 0.808);
+}
+.box6{
+    width: 20%;
+    position: relative;
+}
+.box6 p{
+  margin-top: 20px;
+}
+.box6 img{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+.conversaion{
+    display: flex;
+    flex-direction: column;
+}
+#con h3{
+    margin-top: 20px;
+}
+.p1{
+    display: flex;
+    gap: 10px;
+}
+.p1 .profiles img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.online1{
+    bottom: 47%;
+    right: 170px;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+    border: 2px solid white;
+}
+.p2 .profiles img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+.p2{
+    display: flex;
+    gap: 10px;
+}
+.online2{
+    bottom: 36%;
+    right: 170px;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+    border: 2px solid white;
+}
+.p3 .profiles img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+
+}
+.p3{
+    display: flex;
+    gap: 10px;
+}
+.online3{
+    bottom: 26%;
+    right: 170px;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+    border: 2px solid white;
+}
+.p4 .profiles img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+
+}
+.p4{
+    display: flex;
+    gap: 10px;
+}
+.online4{
+    bottom: 16%;
+    right: 170px;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+    border: 2px solid white;
+}
+.menu{
+   right: 0;
+    top: 35px;  
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    width: 200px;
+    height: 220px;
+    background-color: black;
+}
+.menubox2 li{
+    color: white;
+    list-style-type: none;
+    padding: 10px;
+}
+.menubox2  li i{
+    color: white;
+}
+.menubox3 li{
+    padding: 10px;
+    color: white;
+    list-style-type: none;
+}
+.menubox3 li i{
+    color: white;
+}
+.pic2details h4{
+    color: white;
+}
+.menubox1{
+    margin-top: 20px;
+}
+.pic2profiles{
+    display: flex;
+}
+.pic2details p{
+    color: white;
+}
+#press{
+    display: none;
+}
+#press:checked ~ .menu{
+    display: flex;
+    z-index: 1;
+}
+.btn_two i{
+    position: absolute;
+    top: -1px;
+    right: 3px;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+}
+#press:checked ~ .menu .btn_two{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
